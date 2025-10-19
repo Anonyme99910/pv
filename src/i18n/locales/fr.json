@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "faultDetection": "Détection de pannes",
+    "maintenance": "Maintenance",
+    "analytics": "Analyses & Rapports",
+    "settings": "Paramètres"
+  },
+  "topbar": {
+    "search": "Rechercher...",
+    "notifications": "Notifications",
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "logoutSuccess": "Déconnexion réussie",
+    "language": "Langue"
+  },
+  "login": {
+    "title": "Connexion",
+    "subtitle": "Plateforme de Surveillance PV",
+    "email": "Adresse Email",
+    "emailPlaceholder": "Entrez votre email",
+    "password": "Mot de Passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "forgotPassword": "Mot de passe oublié?",
+    "signIn": "Se Connecter",
+    "loggingIn": "Connexion en cours...",
+    "orContinueWith": "Ou continuer avec",
+    "demoAccounts": "Connexion Rapide (Comptes Démo)",
+    "loginSuccess": "Bienvenue!",
+    "invalidCredentials": "Email ou mot de passe invalide",
+    "loginError": "Échec de la connexion. Veuillez réessayer.",
+    "allRightsReserved": "Tous droits réservés.",
+    "roles": {
+      "admin": "Administrateur",
+      "technician": "Technicien",
+      "viewer": "Observateur"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue sur SOMA",
+    "kpi": {
+      "totalPanels": "Panneaux actifs totaux",
+      "predictedFaults": "Pannes prévues aujourd'hui",
+      "avgEfficiency": "Efficacité moyenne",
+      "nextMaintenance": "Prochaine maintenance"
+    },
+    "charts": {
+      "powerOutput": "Puissance de sortie vs Temps",
+      "trends": "Tendances du système",
+      "voltage": "Tension",
+      "current": "Courant",
+      "temperature": "Température"
+    },
+    "systemMap": {
+      "title": "Carte des panneaux",
+      "healthy": "Sain",
+      "warning": "Avertissement",
+      "fault": "Panne",
+      "panel": "Panneau"
+    },
+    "alerts": {
+      "title": "Alertes récentes",
+      "viewAll": "Voir tout",
+      "noAlerts": "Aucune alerte pour le moment"
+    }
+  },
+  "faultDetection": {
+    "title": "Détection de pannes",
+    "search": "Rechercher des pannes...",
+    "filters": {
+      "all": "Tout",
+      "active": "Actif",
+      "resolved": "Résolu",
+      "critical": "Critique"
+    },
+    "table": {
+      "panelId": "ID Panneau",
+      "faultType": "Type de panne",
+      "confidence": "Confiance",
+      "detectedOn": "Détecté le",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Actif",
+      "resolved": "Résolu",
+      "critical": "Critique",
+      "investigating": "En cours d'investigation"
+    },
+    "faultTypes": {
+      "voltage_drop": "Chute de tension",
+      "temperature_anomaly": "Anomalie de température",
+      "dust_accumulation": "Accumulation de poussière",
+      "current_fluctuation": "Fluctuation de courant",
+      "efficiency_degradation": "Dégradation d'efficacité",
+      "connection_issue": "Problème de connexion"
+    },
+    "modal": {
+      "title": "Détails de la panne",
+      "sensorData": "Données des capteurs",
+      "aiAnalysis": "Analyse IA de la cause racine",
+      "suggestedActions": "Actions correctives suggérées",
+      "markResolved": "Marquer comme résolu",
+      "close": "Fermer",
+      "voltage": "Tension (V)",
+      "temperature": "Température (°C)",
+      "dust": "Niveau de poussière (%)"
+    }
+  },
+  "maintenance": {
+    "title": "Gestion de la maintenance",
+    "calendar": "Vue calendrier",
+    "table": {
+      "title": "Planning de maintenance",
+      "date": "Date",
+      "technician": "Technicien",
+      "taskType": "Type de tâche",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "form": {
+      "title": "Ajouter une tâche de maintenance",
+      "date": "Date",
+      "equipmentId": "ID Équipement/Panneau",
+      "description": "Description",
+      "taskType": "Type de tâche",
+      "assignedTo": "Technicien assigné",
+      "status": "Statut",
+      "submit": "Ajouter la tâche",
+      "cancel": "Annuler"
+    },
+    "status": {
+      "scheduled": "Planifié",
+      "inProgress": "En cours",
+      "completed": "Terminé",
+      "cancelled": "Annulé"
+    },
+    "taskTypes": {
+      "cleaning": "Nettoyage",
+      "inspection": "Inspection",
+      "repair": "Réparation",
+      "replacement": "Remplacement",
+      "calibration": "Calibration"
+    },
+    "progress": {
+      "title": "Achèvement des tâches",
+      "completed": "Terminées",
+      "total": "Tâches totales"
+    }
+  },
+  "analytics": {
+    "title": "Analyses & Rapports",
+    "filters": {
+      "day": "Jour",
+      "week": "Semaine",
+      "month": "Mois",
+      "year": "Année"
+    },
+    "export": {
+      "pdf": "Exporter PDF",
+      "excel": "Exporter Excel",
+      "generating": "Génération du rapport...",
+      "pdfSuccess": "Rapport PDF téléchargé avec succès",
+      "excelSuccess": "Rapport Excel téléchargé avec succès",
+      "error": "Échec de l'exportation du rapport"
+    },
+    "charts": {
+      "efficiencyTrend": "Tendance d'efficacité (Avant/Après maintenance)",
+      "dustAccumulation": "Accumulation de poussière dans le temps",
+      "tempVsOutput": "Corrélation température vs sortie",
+      "predictedRUL": "Durée de vie utile restante prévue (RUL)",
+      "before": "Avant maintenance",
+      "after": "Après maintenance",
+      "efficiency": "Efficacité (%)",
+      "dustLevel": "Niveau de poussière (%)",
+      "temperature": "Température (°C)",
+      "output": "Sortie (kW)",
+      "rul": "RUL (Jours)"
+    },
+    "insights": {
+      "title": "Informations clés",
+      "avgImprovement": "Amélioration moyenne d'efficacité",
+      "criticalPanels": "Panneaux critiques",
+      "maintenanceImpact": "Score d'impact de maintenance"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "tabs": {
+      "users": "Gestion des utilisateurs",
+      "thresholds": "Seuils d'anomalie",
+      "api": "Configuration API",
+      "preferences": "Préférences"
+    },
+    "users": {
+      "title": "Gérer les utilisateurs",
+      "addUser": "Ajouter un utilisateur",
+      "table": {
+        "name": "Nom",
+        "email": "Email",
+        "role": "Rôle",
+        "status": "Statut",
+        "actions": "Actions"
+      },
+      "roles": {
+        "admin": "Administrateur",
+        "technician": "Technicien",
+        "viewer": "Observateur"
+      },
+      "status": {
+        "active": "Actif",
+        "inactive": "Inactif"
+      }
+    },
+    "thresholds": {
+      "title": "Seuils de détection d'anomalies",
+      "voltage": "Seuil de tension",
+      "temperature": "Seuil de température",
+      "efficiency": "Seuil d'efficacité",
+      "dust": "Seuil de niveau de poussière",
+      "save": "Enregistrer les modifications"
+    },
+    "api": {
+      "title": "Configuration API",
+      "key": "Clé API",
+      "endpoint": "Point de terminaison API",
+      "regenerate": "Régénérer la clé",
+      "save": "Enregistrer la configuration"
+    },
+    "preferences": {
+      "title": "Préférences",
+      "theme": "Thème",
+      "light": "Clair",
+      "dark": "Sombre",
+      "language": "Langue",
+      "notifications": "Activer les notifications",
+      "autoRefresh": "Actualisation automatique des données",
+      "refreshInterval": "Intervalle d'actualisation (secondes)"
+    }
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "add": "Ajouter",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "export": "Exporter",
+    "loading": "Chargement...",
+    "noData": "Aucune donnée disponible",
+    "error": "Une erreur s'est produite",
+    "success": "Opération réussie",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "notifications": {
+    "newFault": "Nouvelle panne détectée dans le panneau {panelId}",
+    "maintenanceScheduled": "Maintenance planifiée pour le {date}",
+    "maintenanceCompleted": "Maintenance terminée pour le panneau {panelId}",
+    "thresholdExceeded": "Seuil dépassé : {type}",
+    "systemHealthy": "Tous les systèmes fonctionnent normalement"
+  },
+  "profile": {
+    "title": "Profil",
+    "subtitle": "Gérez vos paramètres de compte et préférences",
+    "personalInfo": "Informations Personnelles",
+    "changePassword": "Changer le Mot de Passe",
+    "recentActivity": "Activité Récente",
+    "quickActions": "Actions Rapides",
+    "updatePassword": "Mettre à Jour le Mot de Passe",
+    "profileUpdated": "Profil mis à jour avec succès",
+    "passwordUpdated": "Mot de passe mis à jour avec succès",
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "stats": {
+      "tasks": "Tâches",
+      "faults": "Défauts",
+      "days": "Jours Actifs"
+    },
+    "actions": {
+      "notifications": "Paramètres de Notification",
+      "security": "Sécurité et Confidentialité",
+      "exportData": "Exporter Mes Données"
+    },
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse Email",
+      "phone": "Numéro de Téléphone",
+      "department": "Département",
+      "currentPassword": "Mot de Passe Actuel",
+      "newPassword": "Nouveau Mot de Passe",
+      "confirmPassword": "Confirmer le Mot de Passe"
+    }
+  },
+  "tooltips": {
+    "powerOutput": "Génération d'énergie en temps réel sur tous les panneaux",
+    "efficiency": "Efficacité actuelle du système par rapport aux performances optimales",
+    "predictedFaults": "Défauts prédits par l'IA basés sur les tendances des données des capteurs",
+    "healthScore": "Score de santé global du système calculé par l'IA",
+    "rul": "Durée de vie opérationnelle restante estimée avant maintenance requise",
+    "confidence": "Niveau de confiance du modèle IA pour cette prédiction"
+  }
+}

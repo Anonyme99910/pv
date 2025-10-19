@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "faultDetection": "Fault Detection",
+    "maintenance": "Maintenance",
+    "analytics": "Analytics & Reports",
+    "settings": "Settings"
+  },
+  "topbar": {
+    "search": "Search...",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "logout": "Logout",
+    "logoutSuccess": "Logged out successfully",
+    "language": "Language"
+  },
+  "login": {
+    "title": "Sign In",
+    "subtitle": "PV Monitoring Platform",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signIn": "Sign In",
+    "loggingIn": "Signing in...",
+    "orContinueWith": "Or continue with",
+    "demoAccounts": "Quick Login (Demo Accounts)",
+    "loginSuccess": "Welcome back!",
+    "invalidCredentials": "Invalid email or password",
+    "loginError": "Login failed. Please try again.",
+    "allRightsReserved": "All rights reserved.",
+    "roles": {
+      "admin": "Administrator",
+      "technician": "Technician",
+      "viewer": "Viewer"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to SOMA",
+    "kpi": {
+      "totalPanels": "Total Panels Active",
+      "predictedFaults": "Predicted Faults Today",
+      "avgEfficiency": "Average Efficiency",
+      "nextMaintenance": "Next Maintenance Date"
+    },
+    "charts": {
+      "powerOutput": "Power Output vs Time",
+      "trends": "System Trends",
+      "voltage": "Voltage",
+      "current": "Current",
+      "temperature": "Temperature"
+    },
+    "systemMap": {
+      "title": "System Panel Map",
+      "healthy": "Healthy",
+      "warning": "Warning",
+      "fault": "Fault",
+      "panel": "Panel"
+    },
+    "alerts": {
+      "title": "Recent Alerts",
+      "viewAll": "View All",
+      "noAlerts": "No alerts at this time"
+    }
+  },
+  "faultDetection": {
+    "title": "Fault Detection",
+    "search": "Search faults...",
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "resolved": "Resolved",
+      "critical": "Critical"
+    },
+    "table": {
+      "panelId": "Panel ID",
+      "faultType": "Fault Type",
+      "confidence": "Confidence",
+      "detectedOn": "Detected On",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "resolved": "Resolved",
+      "critical": "Critical",
+      "investigating": "Investigating"
+    },
+    "faultTypes": {
+      "voltage_drop": "Voltage Drop",
+      "temperature_anomaly": "Temperature Anomaly",
+      "dust_accumulation": "Dust Accumulation",
+      "current_fluctuation": "Current Fluctuation",
+      "efficiency_degradation": "Efficiency Degradation",
+      "connection_issue": "Connection Issue"
+    },
+    "modal": {
+      "title": "Fault Details",
+      "sensorData": "Sensor Data",
+      "aiAnalysis": "AI Root Cause Analysis",
+      "suggestedActions": "Suggested Corrective Actions",
+      "markResolved": "Mark as Resolved",
+      "close": "Close",
+      "voltage": "Voltage (V)",
+      "temperature": "Temperature (°C)",
+      "dust": "Dust Level (%)"
+    }
+  },
+  "maintenance": {
+    "title": "Maintenance Management",
+    "calendar": "Calendar View",
+    "table": {
+      "title": "Maintenance Schedule",
+      "date": "Date",
+      "technician": "Technician",
+      "taskType": "Task Type",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "form": {
+      "title": "Add Maintenance Task",
+      "date": "Date",
+      "equipmentId": "Equipment/Panel ID",
+      "description": "Description",
+      "taskType": "Task Type",
+      "assignedTo": "Assigned Technician",
+      "status": "Status",
+      "submit": "Add Task",
+      "cancel": "Cancel"
+    },
+    "status": {
+      "scheduled": "Scheduled",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "taskTypes": {
+      "cleaning": "Cleaning",
+      "inspection": "Inspection",
+      "repair": "Repair",
+      "replacement": "Replacement",
+      "calibration": "Calibration"
+    },
+    "progress": {
+      "title": "Task Completion",
+      "completed": "Completed",
+      "total": "Total Tasks"
+    }
+  },
+  "analytics": {
+    "title": "Analytics & Reports",
+    "filters": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "export": {
+      "pdf": "Export PDF",
+      "excel": "Export Excel",
+      "generating": "Generating report...",
+      "pdfSuccess": "PDF report downloaded successfully",
+      "excelSuccess": "Excel report downloaded successfully",
+      "error": "Failed to export report"
+    },
+    "charts": {
+      "efficiencyTrend": "Efficiency Trend (Before/After Maintenance)",
+      "dustAccumulation": "Dust Accumulation Over Time",
+      "tempVsOutput": "Temperature vs Output Correlation",
+      "predictedRUL": "Predicted Remaining Useful Life (RUL)",
+      "before": "Before Maintenance",
+      "after": "After Maintenance",
+      "efficiency": "Efficiency (%)",
+      "dustLevel": "Dust Level (%)",
+      "temperature": "Temperature (°C)",
+      "output": "Output (kW)",
+      "rul": "RUL (Days)"
+    },
+    "insights": {
+      "title": "Key Insights",
+      "avgImprovement": "Avg. Efficiency Improvement",
+      "criticalPanels": "Critical Panels",
+      "maintenanceImpact": "Maintenance Impact Score"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+      "users": "User Management",
+      "thresholds": "Anomaly Thresholds",
+      "api": "API Configuration",
+      "preferences": "Preferences"
+    },
+    "users": {
+      "title": "Manage Users",
+      "addUser": "Add User",
+      "table": {
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "roles": {
+        "admin": "Admin",
+        "technician": "Technician",
+        "viewer": "Viewer"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "thresholds": {
+      "title": "Anomaly Detection Thresholds",
+      "voltage": "Voltage Threshold",
+      "temperature": "Temperature Threshold",
+      "efficiency": "Efficiency Threshold",
+      "dust": "Dust Level Threshold",
+      "save": "Save Changes"
+    },
+    "api": {
+      "title": "API Configuration",
+      "key": "API Key",
+      "endpoint": "API Endpoint",
+      "regenerate": "Regenerate Key",
+      "save": "Save Configuration"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "theme": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "language": "Language",
+      "notifications": "Enable Notifications",
+      "autoRefresh": "Auto-refresh Data",
+      "refreshInterval": "Refresh Interval (seconds)"
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "error": "An error occurred",
+    "success": "Operation successful",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "notifications": {
+    "newFault": "New fault detected in Panel {panelId}",
+    "maintenanceScheduled": "Maintenance scheduled for {date}",
+    "maintenanceCompleted": "Maintenance completed for Panel {panelId}",
+    "thresholdExceeded": "Threshold exceeded: {type}",
+    "systemHealthy": "All systems operating normally"
+  },
+  "profile": {
+    "title": "Profile",
+    "subtitle": "Manage your account settings and preferences",
+    "personalInfo": "Personal Information",
+    "changePassword": "Change Password",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "updatePassword": "Update Password",
+    "profileUpdated": "Profile updated successfully",
+    "passwordUpdated": "Password updated successfully",
+    "passwordMismatch": "Passwords do not match",
+    "stats": {
+      "tasks": "Tasks",
+      "faults": "Faults",
+      "days": "Days Active"
+    },
+    "actions": {
+      "notifications": "Notification Settings",
+      "security": "Security & Privacy",
+      "exportData": "Export My Data"
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "department": "Department",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    }
+  },
+  "tooltips": {
+    "powerOutput": "Real-time power generation across all panels",
+    "efficiency": "Current system efficiency compared to optimal performance",
+    "predictedFaults": "AI-predicted faults based on sensor data trends",
+    "healthScore": "Overall system health score calculated by AI",
+    "rul": "Estimated remaining operational life before maintenance required",
+    "confidence": "AI model confidence level for this prediction"
+  }
+}
