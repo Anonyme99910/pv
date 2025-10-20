@@ -1,8 +1,8 @@
-# 🌞 PV System Monitoring Platform
+#  PV System Monitoring Platform
 
 An advanced AI-powered monitoring and fault detection system for photovoltaic (PV) solar panel installations.
 
-## ✨ Features
+## Features
 
 - **Real-time Dashboard** - Live monitoring of 248+ solar panels with power output visualization
 - **AI Fault Detection** - Machine learning-powered anomaly detection with 94%+ confidence
@@ -13,7 +13,7 @@ An advanced AI-powered monitoring and fault detection system for photovoltaic (P
 - **Dark Mode** - Beautiful dark/light theme switching
 - **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Frontend:** Vue 3 (Composition API)
 - **Routing:** Vue Router 4
@@ -24,7 +24,7 @@ An advanced AI-powered monitoring and fault detection system for photovoltaic (P
 - **Build Tool:** Vite
 - **Internationalization:** Vue I18n
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Install dependencies
@@ -40,7 +40,7 @@ npm run build
 npm run preview
 ```
 
-## 🔐 Demo Accounts
+##  Demo Accounts
 
 | Role | Email | Password |
 |------|-------|----------|
@@ -48,7 +48,7 @@ npm run preview
 | Technician | tech@soma.com | tech123 |
 | Viewer | viewer@soma.com | viewer123 |
 
-## 📱 Pages
+##  Pages
 
 - **Dashboard** - Real-time system overview with KPIs and live charts
 - **Fault Detection** - AI-powered fault analysis with detailed diagnostics
@@ -57,7 +57,7 @@ npm run preview
 - **Settings** - User management and system configuration
 - **Profile** - User profile and activity history
 
-## 🎨 Features Highlights
+##  Features Highlights
 
 ### Real-time Monitoring
 - Live power output tracking
@@ -83,13 +83,13 @@ npm run preview
 - Temperature vs output correlation
 - Remaining useful life (RUL) predictions
 
-## 🌍 Internationalization
+##  Internationalization
 
 The platform supports multiple languages:
 - 🇬🇧 English
 - 🇫🇷 French
 
-## 🎯 Project Structure
+##  Project Structure
 
 ```
 pv-system/
@@ -106,7 +106,7 @@ pv-system/
 └── package.json        # Dependencies
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 The system uses mock API data for demonstration. To connect to a real backend:
 
@@ -114,9 +114,9 @@ The system uses mock API data for demonstration. To connect to a real backend:
 2. Configure authentication in `src/stores/auth.js`
 3. Set environment variables in `.env` file
 
-## 📊 Performance
+##  Performance
 
-- ⚡ Fast initial load with Vite
-- 🎨 Smooth animations and transitions
-- 📱 Fully responsive design
-- ♿ Accessible UI components
+-  Fast initial load with Vite
+-  Smooth animations and transitions
+-  Fully responsive design
+-  Accessible UI components
