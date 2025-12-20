@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual Env
+env/
+venv/
+.venv/
+Pipfile.lock
+
+# Jupyter / Notebooks
+.ipynb_checkpoints/
+
+# OS & IDE
+.DS_Store
+*.swp
+*.swo
+.vscode/
+
+# YOLO Weights
+
+# Output images
+*.jpg
+*.png
+*.jpeg
+assets/
+
+# Docker
+*.pid
+*.tar
+*.sock
+
+# .env files (credentials)
+.env
